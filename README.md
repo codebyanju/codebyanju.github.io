@@ -1,3 +1,2 @@
-Projects 1.
-Job Applicaitons
-https://codebyanju.github.io/job-application/
+Projects
+Job Applicaiton - https://codebyanju.github.io/job-application/
