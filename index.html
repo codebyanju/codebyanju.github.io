@@ -392,7 +392,11 @@
           />
         </div>
 
-        <div class="form-row">
+        <div class="form-header">
+          <h4>WORK AUTHORIZATION</h4>
+        </div>
+
+        <div class="form-col">
           <label for="legal-authorization"
             >Are you legally authorized to work in the country for which you are
             applying?✱</label
@@ -417,11 +421,58 @@
           </div>
         </div>
 
-        <div class="form-row">
-          <label for="cover-letter">Cover Letter</label>
-          <textarea id="cover-letter" name="cover-letter" rows="6"></textarea>
+        <div class="form-header">
+          <h4>HOW DID YOU HEAR ABOUT THIS OPPORTUNITY?</h4>
         </div>
-        <button type="submit" class="submit-btn">Submit Application</button>
+
+        <div class="form-col">
+          <label for="how-heard"
+            >Please tell us how you heard about this opportunity:</label
+          >
+          <br />
+          <!-- Add line break for next line -->
+          <select id="how-heard" name="how-heard" style="width: 100%">
+            <!-- Set width to 100% for full width -->
+            <option value="website">Website</option>
+            <option value="social-media">Social Media</option>
+            <option value="referral">Referral</option>
+            <option value="job-board">Job Board</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-header">
+          <h4>ADDITIONAL QUESTIONS</h4>
+        </div>
+
+        <div class="form-col">
+          <label for="favorite-project"
+            >What has been your favorite project or proudest accomplishment?
+            Why?</label
+          >
+          <textarea
+            style="display: block"
+            id="favorite-project"
+            name="favorite-project"
+            style="width: 100%"
+          ></textarea>
+        </div>
+
+        <div class="form-col">
+          <label for="favorite-project">
+            Why do you want to work at Palantir?</label
+          >
+          <textarea
+            style="display: block"
+            id="favorite-project"
+            name="favorite-project"
+            style="width: 100%"
+          ></textarea>
+        </div>
+
+        <div class="form-row">
+          <button type="submit" class="submit-btn">Submit Application</button>
+        </div>
       </div>
     </form>
   </body>
