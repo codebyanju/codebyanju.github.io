@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Student Registration Form</h1>
+      <p>Please fill out the form below to register.</p>
+    </header>
+    <hr />
+
+    <main>
+      <form action="/submitAction" method="POST">
+        <!-- Personal Information -->
+        <section>
+          <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" required />
+            <br />
+            <br />
+
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" required /> <br />
+            <br />
+
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required /> <br />
+            <br />
+
+            <label for="gender">Gender</label>
+            <input type="radio" id="lastName" name="gender" value="female" />
+            <label for="gender">Female</label>
+
+            <input type="radio" id="lastName" name="gender" value="male" />
+            <label for="gender">Male</label>
+
+            <input type="radio" id="lastName" name="gender" value="other" />
+            <label for="gender">Other</label> <br />
+            <br />
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" required /> <br />
+            <br />
+
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" name="phone" required /> <br />
+            <br />
+          </fieldset>
+        </section>
+
+        <!-- Address Information -->
+        <section>
+          <fieldset>
+            <legend>Address Information</legend>
+
+            <label for="phone">Address</label><br />
+            <textarea id="address" name="address" rows="5" cols="50"></textarea>
+            <br />
+            <br />
+
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" required /> <br />
+            <br />
+
+            <label for="state">State</label>
+            <input type="text" id="state" name="state" required /> <br />
+            <br />
+
+            <label for="zipcode">Zipcode</label>
+            <input type="number" id="zipcode" name="zipcode" required /> <br />
+            <br />
+          </fieldset>
+        </section>
+        <hr />
+
+        <!-- Educational Information -->
+        <section>
+          <fieldset>
+            <legend>Educational Information</legend>
+
+            <label for="highSchool">High School</label>
+            <input type="text" id="highSchool" name="highSchool" required />
+            <br />
+            <br />
+
+            <label for="gpa">GPA</label>
+            <input type="text" id="gpa" name="gpa" required /> <br />
+            <br />
+
+            <label for="major">Intended Major</label>
+            <input type="text" id="major" name="major" required /> <br />
+            <br />
+
+            <label for="yearOfGraduation">Year of graduation</label>
+            <input
+              type="number"
+              id="yearOfGraduation"
+              name="yearOfGraduation"
+              required
+            />
+            <br />
+            <br />
+          </fieldset>
+        </section>
+        <hr />
+
+        <!-- Additional Information -->
+        <section>
+          <fieldset>
+            <legend>Additional Information</legend>
+
+            <label for="hobbies">Interests and Hobbies</label> <br />
+            <textarea id="hobbies" name="hobbies" rows="5" cols="50"></textarea>
+            <br />
+            <br />
+
+            <label for="comments">Additional Comments</label> <br />
+            <textarea id="comments" name="comments" rows="5" cols="50">
+            </textarea>
+            <br />
+            <br />
+          </fieldset>
+        </section>
+        <hr />
+
+        <!-- Submit Form -->
+        <section>
+          <button type="submit">Submit</button>
+        </section>
+        <hr />
+      </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2024 Student Registration. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
